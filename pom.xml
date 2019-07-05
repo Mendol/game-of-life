@@ -211,7 +211,19 @@
         <module>gameoflife-core</module>
         <module>gameoflife-web</module>
     </modules>
-    <profiles>
+    <profiles>  
+       <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <sonar.host.url>
+                http://192.168.0.115:9000
+                </sonar.host.url>
+            </properties>
+        </profile>   
+
         <profile>
             <id>development</id>
             <activation>
