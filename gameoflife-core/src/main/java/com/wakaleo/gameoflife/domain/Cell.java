@@ -31,7 +31,7 @@ public enum Cell {
             if (cell.symbol.equals(symbol)) {
                 cellRepresentedBySymbol = cell;
                 break;
-            
+	    }
         }
         return cellRepresentedBySymbol;
     }
